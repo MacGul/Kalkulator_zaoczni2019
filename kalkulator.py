@@ -1,8 +1,12 @@
 def add(a,b):
-	print(a+b)
+	return a+b
 
 def get_info():
-		print("to jest prosty kalkulator")
+	print("to jest prosty kalkulator")
 
 get_info()
-add()
+
+x = int(input())
+y = int(input())
+wynik = add(x,y)
+print(wynik)
