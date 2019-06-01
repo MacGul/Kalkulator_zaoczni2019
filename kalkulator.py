@@ -1,4 +1,8 @@
 def add(a,b):
 	print(a+b)
-#tutaj bedzie mnozenie	
+
+def get_info():
+		print("to jest prosty kalkulator")
+
+get_info()
 add()
